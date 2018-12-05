@@ -1,0 +1,28 @@
+{
+  "name": "demo-ci-app",
+  "version": "1.0.0",
+  "description": "This is a demo app to try out jenkins ci and test.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aniznik/demo-ci-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aniznik/demo-ci-app/issues"
+  },
+  "homepage": "https://github.com/aniznik/demo-ci-app#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "mocha": "^5.2.0",
+    "should": "^13.2.3",
+    "supertest": "^3.3.0"
+  }
+}
